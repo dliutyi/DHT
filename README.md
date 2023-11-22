@@ -43,8 +43,9 @@ Open `.\libpng\projects\vstudio`
 - Select a configuration **Debug|Release** and **x86|x64**
 - Start **Build** the solution
 - Run tests
+- Output folder should be created prior to running the application
 
-> There is **Configuration.h** which contains output folder and file with IDs
+> There is **Configuration.h** which contains settings of the output folder and file with IDs.
 
 ## Class diagram
 
@@ -97,4 +98,4 @@ classDiagram
 ```
 
 ## Extend the number of IDs
-16 bits are reserved for the checksum now, if the number of reserved checksum bits are shortened, the bigger number of IDs is available within 6 digits display.
+16 bits are reserved for the checksum now, if the number of reserved checksum bits is shortened, the bigger number of IDs is available within 6 digits display.
